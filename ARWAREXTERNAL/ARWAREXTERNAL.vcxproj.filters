@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source\features">
+      <UniqueIdentifier>{4ca50137-5935-458f-99af-282e0eb49452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\features">
+      <UniqueIdentifier>{932a28df-4a8b-4195-add2-7e07a5fef773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="localplayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="bhop.cpp">
+      <Filter>source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="glowesp.cpp">
+      <Filter>source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="radar.cpp">
+      <Filter>source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="norecoil.cpp">
+      <Filter>source\features</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="localplayer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bhop.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="glowesp.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="radar.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="norecoil.h">
+      <Filter>headers\features</Filter>
+    </ClInclude>
+    <ClInclude Include="w2s.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
